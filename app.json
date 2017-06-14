@@ -1,0 +1,19 @@
+{
+  "actions": [
+   {
+     "name": "MAIN",
+     "fulfillment": {
+       "conversationName": "factsAboutGoogle"
+     },
+     "intent": {
+       "name": "actions.intent.MAIN"
+     }
+   }
+  ],
+  "conversations": {
+   "factsAboutGoogle": {
+     "name": "factsAboutGoogle",
+     "url": "https://us-central1-factsapp-975bf.cloudfunctions.net/conversationComponent"
+   }
+  }
+}
